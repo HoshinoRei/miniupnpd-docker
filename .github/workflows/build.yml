@@ -12,7 +12,7 @@ on:
     paths-ignore:
       - LICENSE
 jobs:
-  build:
+  build_docker_image:
     name: build_docker_image
     runs-on: ubuntu-20.04
     steps:
